@@ -33,7 +33,6 @@ public class TerrainTools {
 		default : throw new TerrainException("valeur non trouve");
 		}
 	}
-	
 	public static char charFromTerrain(Terrain t){
 		int indexT= 0;
 		Terrain tab[]=Terrain.values();
